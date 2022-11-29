@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+p{
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.other{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
