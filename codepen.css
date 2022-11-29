@@ -1,11 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
-
-p{
-    font-family: 'Rubik Microbe', cursive;
+*{
+  margin: 0.3px;
+  padding: 0;
+  text-align: center;
 }
 
-.other{
-    font-family: 'BhuTuka Expanded One', cursive;
+body{
+    background: green;
+}
+
+h1{
+  font-family: 'Rubik Glitch', cursive;
+  position: relative;
+  right: 80px;
+  bottom: 22px;
+  top: 60px;
+  border: 8px dotted purple;
+  z-index: 1;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  animation: nudge 6s linear infinite alternate;
+  border-radius: 3%;
+}
+
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(400px, 0px);
+    }
+    80% {
+        transform: translate(0px, 0px);
+    }
+}
+
+li{
+  color: white;
+}
+
+strong{
+  color: purple;
+  font-family: 'Rubik Glitch', cursive;
+}
+
+h2{
+  font-family: 'Rubik Glitch', cursive;
+  color: gray;
+    position: absolute;
+  top: 260px;
+  left: 0;
+  width: 140px;
+  height: 80px;
+  border: 3px solid #73AD21;
+  
 }
